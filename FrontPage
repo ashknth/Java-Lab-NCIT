@@ -20,7 +20,13 @@ the time of object creation. It is not mandatory for the coder to write a constr
 If no user-defined constructor is provided for a class, compiler initializes member variables to its default values.
 Types:
 1.Default constructor
+--> constructor without any argument.
 2.Parameterized constructor
+-->constructor with arguments.
+     1.one arg- constructor
+           --> constructor with only one argument.
+           2. two -arg constructor
+             ---> constructor with two arguments.
 3.Copy Constructor
 The copy constructor is a constructor which creates an object by initializing it with an object of the same class, 
 which has been created previously. The copy constructor is used to − Initialize one object from another of the same type.
