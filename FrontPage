@@ -1,0 +1,27 @@
+Access Modifiers:
+Access modifiers are used to implement an important feature of Object Oriented Programming known as Data Hiding.
+Access modifiers or Access Specifiers in a class are used to set the accessibility of the class members. That is, 
+it sets some restrictions on the class members not to get directly accessed by the outside functions.
+There are 3 types of access modifiers available 
+Public
+Private
+Protected
+Note: If we do not specify any access modifiers for the members inside the class then by default the access modifier for 
+the members will be Private.
+Public: All the class members declared under public will be available to everyone. 
+Private: The class members declared as private can be accessed only by the functions inside the class. 
+Protected: Protected access modifier is similar to that of private access modifiers, the difference is that the 
+class member declared as Protected are inaccessible outside the class but they can be 
+accessed by any subclass(derived class) of that class.
+Constuctor::
+A constructor is a special method that is used to initialize a newly created object and is called just after the memory 
+is allocated for the object. It can be used to initialize the objects to desired values or default values at 
+the time of object creation. It is not mandatory for the coder to write a constructor for a class.
+If no user-defined constructor is provided for a class, compiler initializes member variables to its default values.
+Types:
+1.Default constructor
+2.Parameterized constructor
+3.Copy Constructor
+The copy constructor is a constructor which creates an object by initializing it with an object of the same class, 
+which has been created previously. The copy constructor is used to − Initialize one object from another of the same type.
+Copy an object to pass it as an argument to a function.
